@@ -1,1135 +1,1646 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DeskTopPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("JobSearch.feature");
 formatter.feature({
   "line": 1,
-  "name": "Desktop Page test",
-  "description": "As user i want to navigate to different tab on home page",
-  "id": "desktop-page-test",
+  "name": "Job search Test",
+  "description": "As a user i want to search different jobs",
+  "id": "job-search-test",
   "keyword": "Feature"
-});
-formatter.before({
-  "duration": 8198522000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 5,
-  "name": "User Should Navigate To Computer Page Successfully",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-computer-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 4,
-      "name": "@Sanity"
-    },
-    {
-      "line": 4,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 6,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "I click on Computer Tab",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "I should navigate to computer page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 224901100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnComputerTab()"
-});
-formatter.result({
-  "duration": 1235037600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToComputerPageSuccessfully()"
-});
-formatter.result({
-  "duration": 102738900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 848489700,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 3616246900,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "User Should Navigate To Electronics Page Successfully",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-electronics-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 10,
-      "name": "@Sanity"
-    },
-    {
-      "line": 10,
-      "name": "@Smoke"
-    },
-    {
-      "line": 10,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click on Electronic page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "I should navigate to Electronic page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 132000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnElectronicPage()"
-});
-formatter.result({
-  "duration": 1226232400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToElectronicPageSuccessfully()"
-});
-formatter.result({
-  "duration": 70007500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 850136900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2927658800,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 17,
-  "name": "User Should Navigate To Apparel Page Successfull",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-apparel-page-successfull",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 16,
-      "name": "@Smoke"
-    },
-    {
-      "line": 16,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "I click on Apparel page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "I should navigate to Apparel page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 48500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnApparelPage()"
-});
-formatter.result({
-  "duration": 1132593200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToApparelPageSuccessfully()"
-});
-formatter.result({
-  "duration": 78879100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 825925200,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2715044200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 23,
-  "name": "User Should Navigate To Digital Downloads Page Successfull",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-digital-downloads-page-successfull",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 22,
-      "name": "@Smoke"
-    },
-    {
-      "line": 22,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 24,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 25,
-  "name": "I click on Digital Downloads Page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should navigate to Digital download page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 116300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnDigitalDownloadsPage()"
-});
-formatter.result({
-  "duration": 1209228900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToDigitalDownloadPageSuccessfully()"
-});
-formatter.result({
-  "duration": 57667800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 754082500,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2236952000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 29,
-  "name": "User Should Navigate To Books Page Successfully",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-books-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 28,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 30,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 31,
-  "name": "I click on Books Page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 32,
-  "name": "I should navigate to Books page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 98000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnBooksPage()"
-});
-formatter.result({
-  "duration": 1081807700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToBooksPageSuccessfully()"
-});
-formatter.result({
-  "duration": 49104500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 794508300,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2422608600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 35,
-  "name": "User Should Navigate To Jewelry Page Successfully",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-jewelry-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 34,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 36,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 37,
-  "name": "I click on Jewelry page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 38,
-  "name": "I should navigate to Jewelry page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 39800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnJewelryPage()"
-});
-formatter.result({
-  "duration": 1503312000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToJewelryPageSuccessfully()"
-});
-formatter.result({
-  "duration": 66987100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 816960100,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2317767000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 41,
-  "name": "User Should Navigate To Gift Cards Page Successfull",
-  "description": "",
-  "id": "desktop-page-test;user-should-navigate-to-gift-cards-page-successfull",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 40,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 42,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 43,
-  "name": "I click on Gifts cards",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 44,
-  "name": "I should navigate to Gift Cards successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 45000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iClickOnGiftsCards()"
-});
-formatter.result({
-  "duration": 1040320700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DesktopSteps.iShouldNavigateToGiftCardsSuccessfully()"
-});
-formatter.result({
-  "duration": 67424200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 808151300,
-  "status": "passed"
-});
-formatter.uri("login.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Login Test",
-  "description": "As user I want to login into nop commerce website",
-  "id": "login-test",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 2403184300,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 5,
-  "name": "User should navigate to login page successfully",
-  "description": "",
-  "id": "login-test;user-should-navigate-to-login-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 4,
-      "name": "@Sanity"
-    },
-    {
-      "line": 4,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 6,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 7,
-  "name": "I click on login link",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "I should navigate to login page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 44700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iClickOnLoginLink()"
-});
-formatter.result({
-  "duration": 615048000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iShouldNavigateToLoginPageSuccessfully()"
-});
-formatter.result({
-  "duration": 62253900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 756417200,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2169958400,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "User should login successfully with valid credentials",
-  "description": "",
-  "id": "login-test;user-should-login-successfully-with-valid-credentials",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 10,
-      "name": "@Smoke"
-    },
-    {
-      "line": 10,
-      "name": "@Sanity"
-    },
-    {
-      "line": 10,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
-  "name": "I click on login link",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "I enter email \"london1@gmail.com\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "I enter password \"london1\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "I click on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "I should login successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 110200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iClickOnLoginLink()"
-});
-formatter.result({
-  "duration": 1026244100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london1@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "HomeSteps.iEnterEmail(String)"
-});
-formatter.result({
-  "duration": 201900900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london1",
-      "offset": 18
-    }
-  ],
-  "location": "HomeSteps.iEnterPassword(String)"
-});
-formatter.result({
-  "duration": 115537700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iClickOnLoginButton()"
-});
-formatter.result({
-  "duration": 416175500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iShouldLoginSuccessfully()"
-});
-formatter.result({
-  "duration": 98100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 781205500,
-  "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 20,
-  "name": "Verify the error message with invalid credentials",
+  "line": 5,
+  "name": "Verify Job Search Result Using Different DataSet",
   "description": "",
-  "id": "login-test;verify-the-error-message-with-invalid-credentials",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 19,
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
       "name": "@Regression"
     }
   ]
 });
 formatter.step({
-  "line": 21,
+  "line": 6,
   "name": "I am on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 22,
-  "name": "I click on login link",
+  "line": 7,
+  "name": "I click on Accept alert",
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
-  "name": "I enter email \"\u003cemail\u003e\"",
+  "line": 8,
+  "name": "I Enter Job title \"\u003cJob Title\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
-  "name": "I enter password \"\u003cpassword\u003e\"",
+  "line": 9,
+  "name": "I Enter Location \"\u003cLocation\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
-  "name": "I click on login button",
+  "line": 10,
+  "name": "I Select Distance \"\u003cDistance\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
-  "name": "I should see the error message \"\u003cerrorMessage\u003e\"",
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"\u003cMin Salary\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"\u003cMax salary\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"\u003cSalary Type\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"\u003cJob Type\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"\u003cResult\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 27,
+  "line": 19,
   "name": "",
   "description": "",
-  "id": "login-test;verify-the-error-message-with-invalid-credentials;",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;",
   "rows": [
     {
       "cells": [
-        "email",
-        "password",
-        "errorMessage"
+        "Job Title",
+        "Location",
+        "Distance",
+        "Min Salary",
+        "Max salary",
+        "Salary Type",
+        "Job Type",
+        "Result"
       ],
-      "line": 28,
-      "id": "login-test;verify-the-error-message-with-invalid-credentials;;1"
+      "line": 20,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;1"
     },
     {
       "cells": [
-        "london007@gmail.com",
-        "london007",
-        "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found"
+        "Tester",
+        "Harrow",
+        "up to 45 miles",
+        "30000",
+        "50000",
+        "Per annum",
+        "Permanent",
+        "Permanent Tester jobs in Harrow on the Hill"
       ],
-      "line": 29,
-      "id": "login-test;verify-the-error-message-with-invalid-credentials;;2"
+      "line": 21,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;2"
+    },
+    {
+      "cells": [
+        "Manager",
+        "London",
+        "up to 10 miles",
+        "20000",
+        "30000",
+        "Per month",
+        "Permanent",
+        "Permanent Manager jobs in London"
+      ],
+      "line": 22,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;3"
+    },
+    {
+      "cells": [
+        "Electrician",
+        "Leicester",
+        "up to 25 miles",
+        "1000",
+        "1500",
+        "Per month",
+        "Permanent",
+        "Permanent Electrician jobs in Leicester"
+      ],
+      "line": 23,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;4"
+    },
+    {
+      "cells": [
+        "Cook",
+        "Leeds",
+        "up to 35 miles",
+        "2500",
+        "3600",
+        "Per month",
+        "Contract",
+        "Contract Cook jobs in Leeds"
+      ],
+      "line": 24,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;5"
+    },
+    {
+      "cells": [
+        "Cashier",
+        "Kettering",
+        "up to 70 miles",
+        "10",
+        "14",
+        "Per hour",
+        "Temporary",
+        "Temporary Cashier jobs in Kettering"
+      ],
+      "line": 25,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;6"
+    },
+    {
+      "cells": [
+        "Engineer",
+        "Birmingham",
+        "up to 15 miles",
+        "30000",
+        "35000",
+        "Per Annum",
+        "Permanent",
+        "Permanent Engineer jobs in Birmingham"
+      ],
+      "line": 26,
+      "id": "job-search-test;verify-job-search-result-using-different-dataset;;7"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2476391000,
+  "duration": 4431031800,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
-  "name": "Verify the error message with invalid credentials",
+  "line": 21,
+  "name": "Verify Job Search Result Using Different DataSet",
   "description": "",
-  "id": "login-test;verify-the-error-message-with-invalid-credentials;;2",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 19,
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
       "name": "@Regression"
     }
   ]
 });
 formatter.step({
-  "line": 21,
+  "line": 6,
   "name": "I am on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 22,
-  "name": "I click on login link",
+  "line": 7,
+  "name": "I click on Accept alert",
   "keyword": "When "
 });
 formatter.step({
-  "line": 23,
-  "name": "I enter email \"london007@gmail.com\"",
+  "line": 8,
+  "name": "I Enter Job title \"Tester\"",
   "matchedColumns": [
     0
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
-  "name": "I enter password \"london007\"",
+  "line": 9,
+  "name": "I Enter Location \"Harrow\"",
   "matchedColumns": [
     1
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
-  "name": "I click on login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I should see the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+  "line": 10,
+  "name": "I Select Distance \"up to 45 miles\"",
   "matchedColumns": [
     2
   ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 61900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iClickOnLoginLink()"
-});
-formatter.result({
-  "duration": 614518400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london007@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "HomeSteps.iEnterEmail(String)"
-});
-formatter.result({
-  "duration": 284767100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london007",
-      "offset": 18
-    }
-  ],
-  "location": "HomeSteps.iEnterPassword(String)"
-});
-formatter.result({
-  "duration": 159595500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeSteps.iClickOnLoginButton()"
-});
-formatter.result({
-  "duration": 408756800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
-      "offset": 32
-    }
-  ],
-  "location": "HomeSteps.iShouldSeeTheErrorMessage(String)"
-});
-formatter.result({
-  "duration": 55900200,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 798112900,
-  "status": "passed"
-});
-formatter.uri("register.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Register",
-  "description": "",
-  "id": "register",
-  "keyword": "Feature"
-});
-formatter.before({
-  "duration": 2435425500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 4,
-  "name": "User should Navigate To Register Page Successfully",
-  "description": "",
-  "id": "register;user-should-navigate-to-register-page-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@Sanity"
-    },
-    {
-      "line": 3,
-      "name": "@Regression"
-    }
-  ]
-});
-formatter.step({
-  "line": 5,
-  "name": "I am on homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I click on register link",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "I should navigate Register page successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
-});
-formatter.result({
-  "duration": 25300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.register()"
-});
-formatter.result({
-  "duration": 566217500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegisterSteps.iShouldNavigateRegisterPageSuccessfully()"
-});
-formatter.result({
-  "duration": 65356700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 820616400,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2406027600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "User Should Register Account Successfully",
-  "description": "",
-  "id": "register;user-should-register-account-successfully",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@Smoke"
-    },
-    {
-      "line": 9,
-      "name": "@Regression"
-    }
-  ]
+  "keyword": "And "
 });
 formatter.step({
   "line": 11,
-  "name": "I am on homepage",
-  "keyword": "Given "
+  "name": "I enter on more search options",
+  "keyword": "And "
 });
 formatter.step({
   "line": 12,
-  "name": "I click on register link",
-  "keyword": "When "
+  "name": "I Enter Min Salary \"30000\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
 });
 formatter.step({
   "line": 13,
-  "name": "I click on gender tab",
+  "name": "I Enter Max salary \"50000\"",
+  "matchedColumns": [
+    4
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 14,
-  "name": "I enter first name \"London\"",
+  "name": "I Select Salary Type \"Per annum\"",
+  "matchedColumns": [
+    5
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 15,
-  "name": "I enter last name \"King\"",
+  "name": "I Select Job Type \"Permanent\"",
+  "matchedColumns": [
+    6
+  ],
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "i enter dat of birth \"1\"",
+  "name": "I Click on find jobs button",
   "keyword": "And "
 });
 formatter.step({
   "line": 17,
-  "name": "i enter month of birth \"January\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "i enter year of birth \"2000\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "i enter email id \"london\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "i enter company name \"Prime\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "i enter password \"london1\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "i re enter password \"london1\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "i click on set register button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "Your registration completed\", \"Your registration completed",
+  "name": "I should see search result \"Permanent Tester jobs in Harrow on the Hill\"",
+  "matchedColumns": [
+    7
+  ],
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginSteps.iAmOnHomepage()"
+  "location": "JobSearchSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 45200,
+  "duration": 63194300,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.register()"
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
 });
 formatter.result({
-  "duration": 713795800,
+  "duration": 1612335400,
   "status": "passed"
 });
 formatter.match({
-  "location": "RegisterSteps.iClickOnGenderTab()"
+  "arguments": [
+    {
+      "val": "Tester",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
 });
 formatter.result({
-  "duration": 117239600,
+  "duration": 1590621300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Harrow",
+      "offset": 18
+    }
+  ],
+  "location": "JobSearchSteps.iEnterLocation(String)"
+});
+formatter.result({
+  "duration": 63523700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 45 miles",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectDistance(String)"
+});
+formatter.result({
+  "duration": 46986700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 63349000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 219029700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "50000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 88029100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per annum",
+      "offset": 22
+    }
+  ],
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
+});
+formatter.result({
+  "duration": 69347600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectJobType(String)"
+});
+formatter.result({
+  "duration": 59772800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 82908100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent Tester jobs in Harrow on the Hill",
+      "offset": 28
+    }
+  ],
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
+});
+formatter.result({
+  "duration": 16761712100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 866424200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3861223600,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "Verify Job Search Result Using Different DataSet",
+  "description": "",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I am on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click on Accept alert",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I Enter Job title \"Manager\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I Enter Location \"London\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I Select Distance \"up to 10 miles\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"20000\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"30000\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"Per month\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"Permanent\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"Permanent Manager jobs in London\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchSteps.iAmOnHomepage()"
+});
+formatter.result({
+  "duration": 146400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
+});
+formatter.result({
+  "duration": 1655597200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Manager",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
+});
+formatter.result({
+  "duration": 1570589800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "London",
-      "offset": 20
+      "offset": 18
     }
   ],
-  "location": "RegisterSteps.iEnterFirstName(String)"
+  "location": "JobSearchSteps.iEnterLocation(String)"
 });
 formatter.result({
-  "duration": 137117000,
+  "duration": 59483600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "King",
+      "val": "up to 10 miles",
       "offset": 19
     }
   ],
-  "location": "RegisterSteps.iEnterLastName(String)"
+  "location": "JobSearchSteps.iSelectDistance(String)"
 });
 formatter.result({
-  "duration": 100009800,
+  "duration": 60022600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 58594900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1",
+      "val": "20000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 185663200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 66450300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per month",
       "offset": 22
     }
   ],
-  "location": "RegisterSteps.iEnterDatOfBirth(String)"
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
 });
 formatter.result({
-  "duration": 99601400,
+  "duration": 58628300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "January",
-      "offset": 24
+      "val": "Permanent",
+      "offset": 19
     }
   ],
-  "location": "RegisterSteps.iEnterMonthOfBirth(String)"
+  "location": "JobSearchSteps.iSelectJobType(String)"
 });
 formatter.result({
-  "duration": 98989900,
+  "duration": 53084600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 96756200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2000",
-      "offset": 23
-    }
-  ],
-  "location": "RegisterSteps.iEnterYearOfBirth(String)"
-});
-formatter.result({
-  "duration": 92617400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london",
-      "offset": 18
-    }
-  ],
-  "location": "RegisterSteps.iEnterEmailId(String)"
-});
-formatter.result({
-  "duration": 171260900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Prime",
-      "offset": 22
-    }
-  ],
-  "location": "RegisterSteps.iEnterCompanyName(String)"
-});
-formatter.result({
-  "duration": 112231400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london1",
-      "offset": 18
-    }
-  ],
-  "location": "RegisterSteps.iEnterPassword(String)"
-});
-formatter.result({
-  "duration": 188576900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "london1",
-      "offset": 21
-    }
-  ],
-  "location": "RegisterSteps.iReEnterPassword(String)"
-});
-formatter.result({
-  "duration": 121590900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegisterSteps.iClickOnSetRegisterButton()"
-});
-formatter.result({
-  "duration": 172745900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": ", ",
+      "val": "Permanent Manager jobs in London",
       "offset": 28
     }
   ],
-  "location": "RegisterSteps.yourRegistrationCompletedYourRegistrationCompleted(String)"
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
 });
 formatter.result({
-  "duration": 154684600,
+  "duration": 24574506300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 849238800,
+  "duration": 767867000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 3093077100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 23,
+  "name": "Verify Job Search Result Using Different DataSet",
+  "description": "",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I am on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click on Accept alert",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I Enter Job title \"Electrician\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I Enter Location \"Leicester\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I Select Distance \"up to 25 miles\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"1000\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"1500\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"Per month\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"Permanent\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"Permanent Electrician jobs in Leicester\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchSteps.iAmOnHomepage()"
+});
+formatter.result({
+  "duration": 38400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
+});
+formatter.result({
+  "duration": 1589758800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Electrician",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
+});
+formatter.result({
+  "duration": 1578925000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Leicester",
+      "offset": 18
+    }
+  ],
+  "location": "JobSearchSteps.iEnterLocation(String)"
+});
+formatter.result({
+  "duration": 72459800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 25 miles",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectDistance(String)"
+});
+formatter.result({
+  "duration": 49037400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 59557800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 189130200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1500",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 69205500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per month",
+      "offset": 22
+    }
+  ],
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
+});
+formatter.result({
+  "duration": 60926100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectJobType(String)"
+});
+formatter.result({
+  "duration": 44459100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 94952700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent Electrician jobs in Leicester",
+      "offset": 28
+    }
+  ],
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
+});
+formatter.result({
+  "duration": 12558011600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 742797700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2545999700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 24,
+  "name": "Verify Job Search Result Using Different DataSet",
+  "description": "",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I am on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click on Accept alert",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I Enter Job title \"Cook\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I Enter Location \"Leeds\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I Select Distance \"up to 35 miles\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"2500\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"3600\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"Per month\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"Contract\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"Contract Cook jobs in Leeds\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchSteps.iAmOnHomepage()"
+});
+formatter.result({
+  "duration": 29300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
+});
+formatter.result({
+  "duration": 1601472300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cook",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
+});
+formatter.result({
+  "duration": 1614291500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Leeds",
+      "offset": 18
+    }
+  ],
+  "location": "JobSearchSteps.iEnterLocation(String)"
+});
+formatter.result({
+  "duration": 63971400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 35 miles",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectDistance(String)"
+});
+formatter.result({
+  "duration": 54684400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 65371900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2500",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 211602700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3600",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 68853800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per month",
+      "offset": 22
+    }
+  ],
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
+});
+formatter.result({
+  "duration": 48470600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contract",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectJobType(String)"
+});
+formatter.result({
+  "duration": 44495100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 71910700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contract Cook jobs in Leeds",
+      "offset": 28
+    }
+  ],
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
+});
+formatter.result({
+  "duration": 3839121400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 700525700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2554751900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 25,
+  "name": "Verify Job Search Result Using Different DataSet",
+  "description": "",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I am on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click on Accept alert",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I Enter Job title \"Cashier\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I Enter Location \"Kettering\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I Select Distance \"up to 70 miles\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"10\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"14\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"Per hour\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"Temporary\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"Temporary Cashier jobs in Kettering\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchSteps.iAmOnHomepage()"
+});
+formatter.result({
+  "duration": 23900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
+});
+formatter.result({
+  "duration": 1643662400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Cashier",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
+});
+formatter.result({
+  "duration": 1570623400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Kettering",
+      "offset": 18
+    }
+  ],
+  "location": "JobSearchSteps.iEnterLocation(String)"
+});
+formatter.result({
+  "duration": 68419400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 70 miles",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectDistance(String)"
+});
+formatter.result({
+  "duration": 53499300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 57787100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 202247600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "14",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 63330100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per hour",
+      "offset": 22
+    }
+  ],
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
+});
+formatter.result({
+  "duration": 55394800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Temporary",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectJobType(String)"
+});
+formatter.result({
+  "duration": 40138000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 71677700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Temporary Cashier jobs in Kettering",
+      "offset": 28
+    }
+  ],
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
+});
+formatter.result({
+  "duration": 4731075500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 757011200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2423971000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 26,
+  "name": "Verify Job Search Result Using Different DataSet",
+  "description": "",
+  "id": "job-search-test;verify-job-search-result-using-different-dataset;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Smoke"
+    },
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "I am on homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click on Accept alert",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "I Enter Job title \"Engineer\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I Enter Location \"Birmingham\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I Select Distance \"up to 15 miles\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I enter on more search options",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I Enter Min Salary \"30000\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I Enter Max salary \"35000\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I Select Salary Type \"Per Annum\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I Select Job Type \"Permanent\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I Click on find jobs button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I should see search result \"Permanent Engineer jobs in Birmingham\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchSteps.iAmOnHomepage()"
+});
+formatter.result({
+  "duration": 27400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnAcceptAlert()"
+});
+formatter.result({
+  "duration": 1585069800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Engineer",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iEnterJobTitle(String)"
+});
+formatter.result({
+  "duration": 1579919500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Birmingham",
+      "offset": 18
+    }
+  ],
+  "location": "JobSearchSteps.iEnterLocation(String)"
+});
+formatter.result({
+  "duration": 72420000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 15 miles",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectDistance(String)"
+});
+formatter.result({
+  "duration": 52569800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iEnterOnMoreSearchOptions()"
+});
+formatter.result({
+  "duration": 59136500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMinSalary(String)"
+});
+formatter.result({
+  "duration": 202998300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "35000",
+      "offset": 20
+    }
+  ],
+  "location": "JobSearchSteps.iEnterMaxSalary(String)"
+});
+formatter.result({
+  "duration": 61415300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per Annum",
+      "offset": 22
+    }
+  ],
+  "location": "JobSearchSteps.iSelectSalaryType(String)"
+});
+formatter.result({
+  "duration": 53210600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent",
+      "offset": 19
+    }
+  ],
+  "location": "JobSearchSteps.iSelectJobType(String)"
+});
+formatter.result({
+  "duration": 44970800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchSteps.iClickOnFindJobsButton()"
+});
+formatter.result({
+  "duration": 68859200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Permanent Engineer jobs in Birmingham",
+      "offset": 28
+    }
+  ],
+  "location": "JobSearchSteps.iShouldSeeSearchResult(String)"
+});
+formatter.result({
+  "duration": 3871471200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 694662600,
   "status": "passed"
 });
 });
